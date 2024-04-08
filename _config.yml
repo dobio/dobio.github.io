@@ -102,4 +102,9 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: rsync
+  host: cetc.city
+  user: root
+  root: /www/wwwroot/cetc.city/dobio.github.io
+  delete: false
+  port:
